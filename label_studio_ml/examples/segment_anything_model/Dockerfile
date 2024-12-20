@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-ARG PYTHON_VERSION=3.8
+ARG PYTHON_VERSION=3.9
 
 FROM python:${PYTHON_VERSION}-slim AS python-base
 ARG TEST_ENV
